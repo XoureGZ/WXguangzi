@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="成都文轩光子电子商务有限公司 — 以光子科技驱动数字商业未来" />
+  <title>成都文轩光子电子商务有限公司</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Orbitron:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="nebula nebula-1" aria-hidden="true"></div>
+  <div class="nebula nebula-2" aria-hidden="true"></div>
+  <div class="nebula nebula-3" aria-hidden="true"></div>
+
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">◈</span>
+        <span class="logo-text">文轩光子</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#about">关于我们</a></li>
+        <li><a href="#services">核心业务</a></li>
+        <li><a href="#contact">联系我们</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content container">
+        <p class="hero-tag reveal">PHOTON COMMERCE · 数字商业新纪元</p>
+        <h1 class="hero-title reveal">
+          <span class="title-line">成都文轩光子</span>
+          <span class="title-line accent">电子商务有限公司</span>
+        </h1>
+        <p class="hero-desc reveal">
+          以光子科技为灵感，连接星辰与商业，打造流畅、高端的数字电商体验
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#about" class="btn btn-primary">探索更多</a>
+          <a href="#contact" class="btn btn-ghost">联系我们</a>
+        </div>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <div class="orbit-ring ring-1"></div>
+        <div class="orbit-ring ring-2"></div>
+        <div class="orbit-dot"></div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span>向下滚动</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">ABOUT US</span>
+          <h2>关于我们</h2>
+          <p class="section-sub">扎根成都，以光为媒，照亮电商新航道</p>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <div class="card-icon">✦</div>
+            <h3>企业愿景</h3>
+            <p>成为连接品质商品与全球消费者的光子级数字桥梁，让每一次交易都如星光般璀璨流畅。</p>
+          </article>
+          <article class="glass-card reveal" style="--delay: 0.1s">
+            <div class="card-icon">◎</div>
+            <h3>企业理念</h3>
+            <p>以科技创新驱动商业进化，以极致体验赢得用户信赖，在浩瀚数字宇宙中稳健前行。</p>
+          </article>
+          <article class="glass-card reveal" style="--delay: 0.2s">
+            <div class="card-icon">◇</div>
+            <h3>企业信息</h3>
+            <ul class="info-list">
+              <li><span>企业名称</span>成都文轩光子电子商务有限公司</li>
+              <li><span>信用代码</span>91510104MA7J7QJA95</li>
+              <li><span>注册地址</span>四川省成都市锦江区通宝街360号（2#一层）附1975号</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">SERVICES</span>
+          <h2>核心业务</h2>
+          <p class="section-sub">多维度电商服务，覆盖全链路数字商业场景</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <span class="service-num">01</span>
+            <h3>电子商务运营</h3>
+            <p>全平台店铺搭建与精细化运营，助力品牌实现可持续增长。</p>
+          </article>
+          <article class="service-card reveal" style="--delay: 0.1s">
+            <span class="service-num">02</span>
+            <h3>数字营销推广</h3>
+            <p>数据驱动的精准投放策略，让每一分投入都产生最大价值。</p>
+          </article>
+          <article class="service-card reveal" style="--delay: 0.2s">
+            <span class="service-num">03</span>
+            <h3>供应链整合</h3>
+            <p>高效供应链管理与品质把控，保障商品从源头到用户的完美交付。</p>
+          </article>
+          <article class="service-card reveal" style="--delay: 0.3s">
+            <span class="service-num">04</span>
+            <h3>品牌数字化</h3>
+            <p>从视觉到体验的全方位品牌升级，塑造高端数字商业形象。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="contact-wrapper reveal">
+          <div class="contact-info">
+            <span class="section-label">CONTACT</span>
+            <h2>联系我们</h2>
+            <p class="contact-desc">期待与您携手，共赴数字商业的星辰大海</p>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">企业名称</span>
+                <span>成都文轩光子电子商务有限公司</span>
+              </li>
+              <li>
+                <span class="contact-label">统一社会信用代码</span>
+                <span>91510104MA7J7QJA95</span>
+              </li>
+              <li>
+                <span class="contact-label">企业地址</span>
+                <span>四川省成都市锦江区通宝街360号（2#一层）附1975号</span>
+              </li>
+              <li>
+                <span class="contact-label">电子邮箱</span>
+                <a href="mailto:rsdchj95444@gmail.com">rsdchj95444@gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-visual" aria-hidden="true">
+            <div class="planet"></div>
+            <div class="planet-ring"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 成都文轩光子电子商务有限公司 · 保留所有权利</p>
+      <p class="footer-code">91510104MA7J7QJA95</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
